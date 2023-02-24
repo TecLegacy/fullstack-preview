@@ -35,7 +35,6 @@ const server = http.createServer((req, res) => {
       fs.writeFile('message.txt', filtered, () => {
         res.statusCode = 302; //redirect
         res.setHeader('Location', '/');
-
         res.end();
       });
     });
