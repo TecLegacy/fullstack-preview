@@ -1,0 +1,7 @@
+to switch back to main branch 
+use checkout main 
+git pull so that crazy-experiment branch is fetched latest to remote repo 
+while on main branch do this -- > git pull crazy-experiment --rebase (creating a new head)
+git add main branch.txt 
+git commit -m "adding main branch"
+git push origin main 
